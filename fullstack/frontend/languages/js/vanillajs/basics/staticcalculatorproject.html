@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #outset1 {
+        margin-top: 20px;
+        border-style: outset;
+        border-color: blueviolet;
+        border-width: 5px;
+        display: inline-block;
+        padding: 10px 90px 10px 90px;
+        background-color: rgb(249, 249, 250);
+    }
+
+    #outset2 {
+        border-style: outset;
+        border-color: rgb(133, 23, 133);
+        border-width: 5px;
+        display: inline-block;
+        padding: 10px 75px 10px 75px;
+        background-color: rgb(247, 230, 247);
+    }
+
+    #outset3 {
+        border-style: outset;
+        border-color: rgb(187, 4, 132);
+        border-width: 5px;
+        display: inline-block;
+        padding: 10px 50px 10px 50px;
+        background-color: rgb(252, 235, 247);
+    }
+</style>
+
+<body>
+    <center>
+        <div class="root1" id="outset1">
+            <h1>Addition of 5 and 5</h1>
+            <button onclick="add()">click</button>
+        </div>
+    </center>
+    <br>
+    <center>
+        <div class="root2" id="outset2">
+            <h1>Subtration of 5 and 5</h1>
+            <button onclick="sub()">click</button>
+        </div>
+    </center>
+    <br>
+    <center>
+        <div class="root3" id="outset3">
+            <h1>Multiplication of 5 and 5</h1>
+            <button onclick="mul()">click</button>
+        </div>
+    </center>
+
+    <script>
+        function add() { }
+        alert(5 + 5)
+        function sub() { }
+        alert(5 - 5)
+        function mul() { }
+        alert(5 * 5)
+    </script>
+</body>
+
+</html>

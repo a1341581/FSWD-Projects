@@ -13,25 +13,22 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-<style>
+      <style>
+          #grad{
 
-    div{
-        width: 300px;
-        height: 100px;
-        padding: 15px;
-        background-color: yellow;
-        box-shadow: 10px 10px;
-    }
-</style>
+              height: 200px;
+              background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,150,1) 14%, rgba(152,162,117,1) 31%, rgba(0,212,255,1) 81%);
+ 
+          transition: width 2s;
+            }
+            h1:hover{
+                background-color: yellow;
+                transition: width 2s,height 4s;
+            }
+      </style>
 
-
-      <div>
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, accusantium inventore quas, molestiae vitae reprehenderit officiis deserunt voluptatum ullam voluptates culpa assumenda quia officia ratione natus, nostrum minima ab laboriosam.
-
-      </div>
-        
+        <div id="grad"></div>
+        <h1>jj</h1>
         <script src="" async defer></script>
     </body>
 </html>

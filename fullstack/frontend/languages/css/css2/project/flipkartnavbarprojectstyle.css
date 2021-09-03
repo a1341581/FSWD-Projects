@@ -29,15 +29,10 @@ ul li a{
     display: block;
     text-decoration: none;
     color:black;
-    /* border-top: 1px solid #ffffff; */
     padding: 20px 15px 15px 20px;
     background: inherit;
     margin-left: 1px;
     white-space: nowrap;
-}
-
-ul li a:hover{
-    /* background: lightgray; */
 }
 
 li:hover ul{

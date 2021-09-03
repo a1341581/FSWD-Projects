@@ -1,0 +1,23 @@
+$bgcolor1: blue;
+$bgcolor2: red;
+$bgcolor3: green;
+
+.root1 {
+    background-color: $bgcolor1;
+    font-size: 45px;
+}
+
+.root2 {
+    background-color: $bgcolor2;
+    font-size: 45px;
+}
+
+.root3 {
+    background-color: $bgcolor3;
+    font-size: 45px;
+}
+
+.root4 {
+    background-color: yellow;
+    font-size: 45px;
+}

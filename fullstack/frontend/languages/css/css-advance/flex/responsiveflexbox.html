@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .flex-left {
+            background-color: lightgray;
+            padding: 10px;
+            flex: 50%;
+        }
+
+        .flex-right {
+            background-color: dodgerblue;
+            padding: 10px;
+            flex: 50%;
+        }
+
+        @media (max-width: 800px) {
+
+            .flex-item-right,
+            .flex-item-left {
+                flex: 100%;
+            } 
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Responsive Flexbox</h1>
+
+    <div class="flex-container">
+        <div class="flex-left">1</div>
+        <div class="flex-right">2</div>
+    </div>
+</body>
+
+</html>

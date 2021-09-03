@@ -24,7 +24,7 @@
 
 #main-nav ul{
     list-style: none;
-    display: flex;
+    display: flex; 
 }
 
 #main-nav li{
