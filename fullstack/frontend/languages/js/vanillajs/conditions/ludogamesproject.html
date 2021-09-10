@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <style>
+
+    </style>
+    <center>
+        <h1>2 Players Ludo Game</h1>
+        <br>
+
+        <div id="root"></div>
+        <br>
+        <button onclick="dice1()">Player A Generate New Number</button>
+        <br>
+        <br>
+        <div id="root2"></div>
+        <br>
+        <button onclick="dice2()">Player B Generate New Number</button>
+    </center>
+
+    <script>
+        function dice1() {
+            var dice = Math.floor(Math.random() * 7, Math.min = 1)
+            switch (dice) {
+                case 1:
+                    document.getElementById('root').innerHTML = ("1")
+                    break;
+                case 2:
+                    document.getElementById('root').innerHTML = ("2")
+                    break;
+                case 3:
+                    document.getElementById('root').innerHTML = ("3")
+                    break;
+                case 4:
+                    document.getElementById('root').innerHTML = ("4")
+                    break;
+                case 5:
+                    document.getElementById('root').innerHTML = ("5")
+                    break;
+                case 6:
+                    document.getElementById('root').innerHTML = ("6")
+                    break;
+            }
+        }
+        function dice2() {
+            var dice = Math.floor(Math.random() * 7, Math.min = 1)
+            switch (dice) {
+                case 1:
+                    document.getElementById('root2').innerHTML = ("1")
+                    break;
+                case 2:
+                    document.getElementById('root2').innerHTML = ("2")
+                    break;
+                case 3:
+                    document.getElementById('root2').innerHTML = ("3")
+                    break;
+                case 4:
+                    document.getElementById('root2').innerHTML = ("4")
+                    break;
+                case 5:
+                    document.getElementById('root2').innerHTML = ("5")
+                    break;
+                case 6:
+                    document.getElementById('root2').innerHTML = ("6")
+                    break;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

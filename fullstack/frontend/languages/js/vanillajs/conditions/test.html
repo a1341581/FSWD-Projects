@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        function GenerateNumber() {
+
+            var elem = document.getElementById('MyNumber');
+
+            elem.innerHTML = parseInt(1 + Math.random() * 5);
+
+        }
+    
+    </script>
+
+    <div id="MyNumber">...</div>
+
+    <button onclick="GenerateNumber()">Generate new number</button>
+
+
+</body>
+
+</html>

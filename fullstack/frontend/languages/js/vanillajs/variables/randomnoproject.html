@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <center>
+        <div>
+            <h1>click on the button to get a random number</h1>
+            <br>
+            <div id="root"></div>
+            <br>
+            <button onclick="random()">click me</button>
+        </div>
+    </center>
+    <script>
+        function random() {
+            let no = math.random()
+            document.getElementById("root").innerHTML = no
+        }
+    </script>
+</body>
+
+</html>

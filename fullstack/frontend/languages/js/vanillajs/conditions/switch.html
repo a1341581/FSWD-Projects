@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+<center>
+    <h1>hello come play Sunday Monday game</h1>
+    <br>
+    <div id="root"></div>
+    <br>
+    <button onclick="game()">click me to play</button>
+</center>
+        
+        <script>
+            function game(){
+                var dice=Math.floor(Math.random()*6)
+                switch(dice){
+                    case 0:
+                    document.getElementById('root').innerHTML=("Monday")
+                    break;
+                    case 1:
+                    document.getElementById('root').innerHTML=("Tuesday")
+                    break;
+                    case 2:
+                    document.getElementById('root').innerHTML=("Wednesday")
+                    break;
+                    case 3:
+                    document.getElementById('root').innerHTML=("Thursday")
+                    break;
+                    case 4:
+                    document.getElementById('root').innerHTML=("Friday")
+                    break;
+                    case 5:
+                    document.getElementById('root').innerHTML=("Saturday")
+                    break;
+                    case 6:
+                    document.getElementById('root').innerHTML=("Sunday")
+                    break;
+                }
+                
+
+            }
+        </script>
+    </body>
+</html>
