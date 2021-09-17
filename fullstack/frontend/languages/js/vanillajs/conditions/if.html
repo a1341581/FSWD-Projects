@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <script>
+        var couponvalid = "valid"
+        var budget = 0
+        var used = false
+        var coupon = ["not", 1000, false]
+
+        if (couponvalid == "valid") {
+            console.log("apply coupon")
+        } else {
+            console.log("please enter valid coupon")
+        }
+
+        if (couponvalid == coupon[0]) {
+            console.log("please enter valid coupon")
+        }
+
+        if (budget > 0) {
+            console.log("apply coupon")
+        } else {
+            console.log("no budget")
+        }
+
+        if(used==true){
+            console.log("already used")
+        }else{
+            console.log("apply coupon")
+        }
+    </script>
+</body>
+
+</html>

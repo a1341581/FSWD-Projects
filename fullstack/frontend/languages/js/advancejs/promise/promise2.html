@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <script>
+
+        function party() {
+
+            return new Promise((resolve, reject) => {
+
+                setTimeout(() => {
+                    const err = true
+                    if (!err) {
+                        console.log("TQ Tamil")
+                        resolve()
+                    } else {
+                        console.log("Very bad Mr Tamil why u did not fulfill your promise")
+                        reject()
+                    }
+                }, 3000)
+            })
+        }
+        party().then(() => {
+            console.log("magic")
+        }).catch(() => {
+            console.log("very bad error")
+        })
+        var g = new Promise()
+        console.log(new Promise())
+    </script>
+</body>
+
+</html>

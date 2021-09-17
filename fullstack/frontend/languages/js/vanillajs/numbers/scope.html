@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+
+    <script>
+        var data = "hello"
+        console.log(data)
+        function g (){
+            var localdata = "haha" //block, cannot call in{}//
+            console.log("data called in function", data)
+        }
+        g()
+        console.log(localdata) //no show
+    </script>
+</body>
+
+</html>

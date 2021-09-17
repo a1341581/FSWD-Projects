@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <button class="button" id="mybutton">clicxk me</button>
+
+    <script>
+
+        document.getElementById('mybutton')
+            .addEventListener('click', () => {
+
+                import('./js/math.js').then((math) => {
+                    console.log(math)
+                    alert(math.multiplay(5, 10))
+                })
+            })
+
+    </script>
+</body>
+
+</html>

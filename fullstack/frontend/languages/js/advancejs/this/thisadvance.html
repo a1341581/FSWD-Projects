@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+
+    <script>
+        var email = "ggg@gmail.com"
+       
+        class user {
+            constructor(email, name){
+            this.email = email
+            this.name = name
+        }
+        login(){
+            console.log(this.email, "just loged in") //show punch in, with this.email show the email address
+            return this //with return this, it show both login and logout, method chining
+        }
+        logout(){
+            console.log(this.email, "just loged out")
+        }
+        }
+        var user1 = new user("kong@gmail.com", "kong") //show the email address
+        console.log(user1)
+        console.log(user1.login) //show ggg@gmail.com
+        var user1 = new user("kong@gmail.com", "kong") //show login
+        user1.login() //show ggg@gmail.com
+        user1.logout() //show logout
+        var user2 = new user("tamil@gmail.com", "tamil") //show login
+        user2.login()
+        user1.login().logout() //without return this, show only login
+    </script>
+</body>
+
+</html>

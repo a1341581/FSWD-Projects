@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <style>
+        .parent {
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+        }
+
+        .child {
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+        }
+
+        .grandchild {
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+    </style>
+    <div class="parent">
+        <div class="child">
+            <div class="grandchild">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector(".parent").addEventListener('click', (e) => { //queryselector to select the div name
+            console.log(e)
+        })
+    </script>
+</body>
+
+</html>

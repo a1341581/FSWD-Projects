@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <script>
+        let pranush_promiss = new Promise((resol, reject) => { //hoc
+            setTimeout(() => {
+                resol("tq for doing job")
+            }, 3000) //show promise
+        })
+        pranush_promiss.then((data) => {
+            console.log(data)
+        })
+        console.log()
+    </script>
+</body>
+
+</html>
