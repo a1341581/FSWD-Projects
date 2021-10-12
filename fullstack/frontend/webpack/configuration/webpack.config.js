@@ -1,0 +1,3 @@
+Module.export={
+    mode:"production"
+}
