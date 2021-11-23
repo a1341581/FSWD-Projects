@@ -1,4 +1,5 @@
 var fs=require('fs')
+
 //creating folder
 // fs.mkdirSync("pizza")
 
@@ -16,4 +17,4 @@ var fs=require('fs')
 // fs.unlinkSync('pizza/h.txt')
 
 //deleting folder
-// fs.rmdirSync("j")
+fs.rmdirSync("j")

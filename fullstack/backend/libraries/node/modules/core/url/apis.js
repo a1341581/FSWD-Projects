@@ -1,7 +1,7 @@
 var http=require('http')
 var server=http.createServer((req, res)=>{
     if (req.url=='/home'){
-        res.write('hello')
+        res.write('im home')
         res.end()
     }
     if (req.url=='/about'){
